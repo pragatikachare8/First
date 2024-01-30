@@ -9,7 +9,7 @@
 body{
     font-family: Brush Script MT Lucida Handwriting;
     /* background-color: rgb(241, 237, 224); */
-    background-color: #FDF9F3;
+    background-color: #FDF9F3;                  
 }
 
 nav{
@@ -165,3 +165,8 @@ nav button{
    text-align:left;
 }
 
+.navmini{
+    margin-top: 70px;
+    margin-right: 500px;
+    
+}
