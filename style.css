@@ -8,12 +8,15 @@
 
 body{
     font-family: Brush Script MT Lucida Handwriting;
-    background-color: rgb(252, 249, 240);
+    /* background-color: rgb(241, 237, 224); */
+    background-color: #FDF9F3;
 }
 
 nav{
     height: 80px;
     width: 100%;
+    margin-top: 30px;
+    
 }
 
 label.logo{
@@ -36,21 +39,33 @@ nav ul li{
 
 
 nav ul li a{
-    color: black;
+    color: rgb(82, 79, 79);
     padding: 7px 20px;
     font-size: 20px
 }
 a:hover{
-    background: #5c778a;
-    transition: .9s;
+    /* background: #5c778a; */
+    color: rgb(228, 105, 5);
+    transition: 0.5s;
     border-radius: 10px;
 }
 
 nav button{
+    background-color: rgb(59, 57, 57);
     margin-left: 200px;
-    padding: 10px;
-    border: solid;
-    border-radius: 10px 10px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+
+}
+
+.getInTouchBtn:hover{
+    background-color: rgb(228, 105, 5);
+    transition: 0.5s;
+    text-align: center;
+
 }
 
 
@@ -58,6 +73,9 @@ nav button{
     align-items: center ;
 }
 
+.div1{
+    margin-top: 50px;
+}
 
 .a1{
     text-align: center;
