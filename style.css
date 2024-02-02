@@ -14,7 +14,7 @@ body{
 nav{
     height: 80px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
     
 }
 
@@ -224,7 +224,8 @@ nav button{
     margin-top: -60px;
     padding: 15px 15px;
 }
-.arrowa1:hover{
+.arrowa1:hover,
+.arrowa2:hover{
     border-radius: 50%;
     color: rgb(228, 105, 5);
     font-weight: bold;
@@ -247,15 +248,16 @@ nav button{
     background-image: linear-gradient(46deg, #d8b000 30%, #f8792f 46%, #6d00c7 60%);
     background-clip: text;
     -webkit-text-fill-color: transparent; */
-    color: rgb(94, 89, 89);
+    color: rgb(228, 105, 5);
     margin-right: 140px;
     margin-top: 20px;
 }
 .mainParagraph{
+    margin-top: -50px;
     text-align: center;
     font-size: 380px;
     /* color: rgb194, 186, 186); */
-    opacity: 0.9;
+    opacity: 0.8    ;
     font-weight: bold;
     color: rgba(216, 209, 209, 0.5);
   }
@@ -276,6 +278,9 @@ nav button{
     -webkit-text-fill-color: transparent;
   }
 
-  .phonelogo{
-    height: 300px;
-  }
+.arrowa2{
+    float: right;
+    margin-right: 30px;
+    margin-top: -60px;
+    padding: 15px 15px;
+}
