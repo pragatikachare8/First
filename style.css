@@ -7,7 +7,7 @@
 }
 
 body{
-     font-family: 'Sans-serif';
+    font-family: 'Arial', sans-serif;
     background-color: rgb(241, 237, 224);
     /* background-color: #FDF9F3;       main */
 }
@@ -200,7 +200,8 @@ nav button{
     margin-right:300px;
     margin-top: 30px;
     text-align: center;
-    text-shadow: 2px 2px #191a18
+    /* text-shadow: 2px 2px #191a18; */
+    color: grey;
 } 
 
 .heading2A1{
@@ -208,7 +209,7 @@ nav button{
     font-weight:bold;
     margin-right:350px;
     margin-top: 20px;
-    color: rgb(95, 89, 89);
+    color: rgb(228, 105, 5);
     /* text-align: center; */
    
 }
@@ -225,7 +226,9 @@ nav button{
     padding: 15px 15px;
 }
 .arrowa1:hover,
-.arrowa2:hover{
+.arrowa2:hover,
+.arrowa3:hover,
+.arrowb1:hover{
     border-radius: 50%;
     color: rgb(228, 105, 5);
     font-weight: bold;
@@ -241,6 +244,7 @@ nav button{
     /* float:right; */
     margin-right: 150px;
     margin-top: 30px;
+    color: grey;
 }
 
 .heading2A2{
@@ -278,9 +282,31 @@ nav button{
     -webkit-text-fill-color: transparent;
   }
 
-.arrowa2{
+.arrowa2,.arrowa3,.arrowb1{
     float: right;
     margin-right: 30px;
     margin-top: -60px;
     padding: 15px 15px;
+}
+
+.a3image{
+    height:70%;
+}
+
+.heading1A3,.heading1B1{
+    float: right;
+    margin-right: 60%;
+    color: grey;
+
+}
+
+.heading2A3,.heading2B1{
+    float: right;
+    margin-right: 75%;
+    margin-top: 20px;
+    color: rgb(228, 105, 5); ;
+}
+
+.b1image{
+    height: 70%;
 }
