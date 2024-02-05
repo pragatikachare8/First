@@ -7,6 +7,7 @@
 }
 
 body{
+   
     font-family: 'Arial', sans-serif;
     background-color: rgb(241, 237, 224);
     /* background-color: #FDF9F3;       main */
@@ -99,6 +100,7 @@ nav button{
     border-radius: 40px;
     margin-right: 30px;
     margin-left: 10px;
+    /* margin: autoZ; */
     
 }
 .a3{
@@ -197,7 +199,7 @@ nav button{
     /* text-shadow: 20px; */
     font-size: 40px   ;
     font-weight:bold;
-    margin-right:300px;
+    margin-right:280px;
     margin-top: 30px;
     text-align: center;
     /* text-shadow: 2px 2px #191a18; */
@@ -228,7 +230,9 @@ nav button{
 .arrowa1:hover,
 .arrowa2:hover,
 .arrowa3:hover,
-.arrowb1:hover{
+.arrowb1:hover,
+.arrowb3:hover,
+.arrowb2:hover{
     border-radius: 50%;
     color: rgb(228, 105, 5);
     font-weight: bold;
@@ -248,12 +252,8 @@ nav button{
 }
 
 .heading2A2{
-    /* background-color: blueviolet;
-    background-image: linear-gradient(46deg, #d8b000 30%, #f8792f 46%, #6d00c7 60%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
     color: rgb(228, 105, 5);
-    margin-right: 140px;
+    margin-right: 120px;
     margin-top: 20px;
 }
 .mainParagraph{
@@ -285,7 +285,7 @@ nav button{
 .arrowa2,.arrowa3,.arrowb1{
     float: right;
     margin-right: 30px;
-    margin-top: -60px;
+    margin-top: -70px;
     padding: 15px 15px;
 }
 
@@ -295,14 +295,21 @@ nav button{
 
 .heading1A3,.heading1B1{
     float: right;
-    margin-right: 60%;
+    margin-right: 280px;
     color: grey;
 
 }
 
-.heading2A3,.heading2B1{
+.heading2A3{
+    float:right;
+    margin-right: 340px;
+    margin-top: 23px;
+    color: rgb(228, 105, 5);     
+}
+
+.heading2B1{
     float: right;
-    margin-right: 75%;
+    margin-right: 310px;
     margin-top: 20px;
     color: rgb(228, 105, 5); ;
 }
@@ -310,3 +317,42 @@ nav button{
 .b1image{
     height: 70%;
 }
+
+.b3image{
+    height: 230px;
+    width: 740px;
+    border-radius: 40px;
+}
+
+.heading1B3{
+    float:right;
+    margin-right: 600px;
+    color: grey;
+    margin-top:20px;
+}
+
+.heading2B3{
+    float:right;
+    margin-right:575px;
+    margin-top: 15px;
+    color:rgb(228, 105, 5); 
+}
+
+.arrowb3{
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;  
+
+}
+
+.svgtwitter{
+    height: 50%;
+    color:rgb(241, 180, 62);
+}
+
+.arrowb2{
+    float: right;
+    margin-right: 30px;
+    margin-top: -100px;
+}
+
