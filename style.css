@@ -78,6 +78,7 @@ nav button{
 
 .div1{
     margin-top: 50px;
+    /* position: fixed; */
 }
 
 .a1{
@@ -164,10 +165,6 @@ nav button{
     border-radius: 40px;
 }
 
-/* .a1heading{
-    padding-top: 200px;
-   text-align:left;
-} */
 
 .navmini{
     margin-top: 70px;
@@ -232,7 +229,9 @@ nav button{
 .arrowa3:hover,
 .arrowb1:hover,
 .arrowb3:hover,
-.arrowb2:hover{
+.arrowb2:hover,
+.arrowc1:hover,
+.arrowc2:hover{
     border-radius: 50%;
     color: rgb(228, 105, 5);
     font-weight: bold;
@@ -282,7 +281,14 @@ nav button{
     -webkit-text-fill-color: transparent;
   }
 
-.arrowa2,.arrowa3,.arrowb1{
+.arrowa2{
+    float: right;
+    margin-right: 30px;
+    margin-top: -60px;
+    padding: 15px 15px;
+}
+
+.arrowa3,.arrowb1{
     float: right;
     margin-right: 30px;
     margin-top: -70px;
@@ -346,13 +352,99 @@ nav button{
 }
 
 .svgtwitter{
-    height: 50%;
+    /* height: 50%; */
     color:rgb(241, 180, 62);
 }
 
 .arrowb2{
     float: right;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-top: -100px;
+
 }
 
+.heading1c1{
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 430px;
+    color: grey;
+    margin-top: 170px;
+}
+
+.heading2c2{
+    float:right;
+    margin-right: 380px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(228, 105, 5);  ;
+}
+
+.arrowc1{
+    float: right;
+    margin-right: 45px;
+    margin-top: -10px;
+}
+.heading1c2{
+    float: right;
+    margin-right: 650px;
+    margin-top: 100px;
+    color: grey;
+    font-weight: bold;
+}
+
+.svgimgc2{
+    /* user-select: none;  */
+    width: 23%; 
+    height: 23%; 
+    /* display: inline-block; */
+    fill:rgb(241, 180, 62); 
+    /* flex-shrink: 0;  */
+    /* cursor: auto; */
+    /* margin-top: 20px; */
+    padding: 30px;
+    margin-left: 30px;
+    float: left;
+    /* margin-right: 30px; */
+}
+
+.p3a1{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin-right: -50px;
+    margin-top: -20px;
+    padding: 1px;
+    font-weight: bold;
+    color: grey;
+  
+}
+
+.p3a2{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -20px;
+    padding: 1px;
+    font-weight: bold;
+    color: grey;
+}
+
+.p3a3{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: -20px;
+    padding: 1px;
+    font-weight: bold;
+    color: grey;
+}
+
+.arrowc2{
+    float: right;
+    margin-right: 40px;
+    margin-top: -30px;
+}
