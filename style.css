@@ -16,6 +16,7 @@ nav{
     height: 80px;
     width: 100%;
     margin-top: 40px;
+    position: relative;
     
 }
 
@@ -255,7 +256,7 @@ nav button{
     margin-right: 120px;
     margin-top: 20px;
 }
-.mainParagraph{
+.mainParagraphdiv1works{
     margin-top: -50px;
     text-align: center;
     font-size: 380px;
@@ -447,4 +448,47 @@ nav button{
     float: right;
     margin-right: 40px;
     margin-top: -30px;
+}
+
+.div1works{
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.a3worksimg{
+    height:70%;
+    width: auto;
+}
+
+.a2worksimg{
+    height: 70%;
+}
+
+.a1worksimg{
+    height: 65%;
+    /* width: 60%; */
+
+}
+
+.b1worksimg{
+    height: 70%;
+}
+
+.b2worksimg{
+    height: 70%;
+}
+
+.b3worksimg{
+    height: 60%;
+}
+
+.mainParagraphdiv1about{
+    margin-top: -50px;
+    text-align: center;
+    font-size: 380px;
+    /* color: rgb194, 186, 186); */
+    opacity: 0.8    ;
+    font-weight: bold;
+    color: rgba(216, 209, 209, 0.5);
 }
