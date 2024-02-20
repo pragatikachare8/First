@@ -5,6 +5,10 @@
         list-style: none;
         box-sizing: border-box;
     }
+
+    a {
+        color: black;
+      }
     
     body{   
        
@@ -232,7 +236,9 @@
     .arrowb3:hover,
     .arrowb2:hover,
     .arrowc1:hover,
-    .arrowc2:hover{
+    .arrowc2:hover,
+    .arrowc1about:hover
+    {
         border-radius: 50%;
         color: rgb(228, 105, 5);
         font-weight: bold;
@@ -379,7 +385,7 @@
         margin-top: 25px;
         font-weight: bold;
         font-size: 48px;
-        color: rgb(228, 105, 5);  ;
+        color: rgb(228, 105, 5);
     }
     
     .arrowc1{
@@ -497,7 +503,7 @@
     .a2about{
         float: right;
         /* text-align: center; */
-        background-color: white;
+        background-color: rgb(195, 235, 186);
         height: 350px;
         width:25%;
         margin-right: 100px;
@@ -516,7 +522,7 @@
     
     .b1about{
         /* text-align: center; */
-        background-color: white;
+        background-color: rgb(184, 231, 217);
         height: 350px;
         width: 44%;
         margin-left: 100px;
@@ -526,8 +532,8 @@
     
     .b2about{
         float: right;
-        text-align: center;
-        background-color: white;
+        /* text-align: center; */
+        background-color: rgb(243, 177, 223);
         height: 350px;
         width: 44%;
         margin-right: 100px;
@@ -537,7 +543,7 @@
     
     .c1about{
         text-align: center;
-        background-color: white;
+        background-color: rgb(198, 191, 230);
         height: 350px;
         width: 23%;
         border-radius: 40px;
@@ -548,8 +554,8 @@
     
     .c2about{
         float: right;
-        text-align: center;
-        background-color: white;
+        /* text-align: center; */
+        background-color: rgb(213, 236, 191);
         height: 350px;
         width: 40%;
         border-radius: 40px;
@@ -559,8 +565,8 @@
     
     .c3about{
         float: right;
-        text-align: center;
-        background-color: white;
+        /* text-align: center; */
+        background-color: rgb(231, 204, 204);
         height: 350px;
         width: 23%;
         border-radius: 40px;
@@ -611,5 +617,95 @@
         color: grey;
     }
 
+    .h1b2{
+        margin-left: 10%;
+        margin-top: 8%;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .h2b2,.h3b2,.h4b2{
+        margin-left: 10%;
+        margin-top: 3%;
+        font-size: 25px;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .svgtwitterabout{
+        /* height: 50%; */
+        margin-top: 25%;
+        margin-left: 30%;
+        /* margin-right: %; */
+        color:rgb(241, 180, 62);
+    }
+
+    .h1c2{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+
+    .h2c2{
+        font-size: 50px;
+        font-weight: bold;
+        color:rgb(228, 105, 5); 
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    .h1c3{
+        font-size: 18px;
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+
+    .h2c3{
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 5%;
+        margin-left: 10%;
+        transition: 1s ; /* Transition effect on color property */
+
+    }
+
+    
+
+    .p1div1maFitt{
+        font-size: 30px;
+        color: grey;
+        margin-top: 3%;
+        margin-left: 7%;
+    }
+
+    .p2div1maFitt{
+        font-size: 100px;
+        font-weight: bold;
+        margin-left: 7%;
+        margin-top: 3%;
+        width: 70%;
+        transition: 1s;
+    }
 
 
+    .p3div1maFitt{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 3%;
+        margin-left: 7%;
+        color: grey;   
+        transition:1s;
+
+    }
+
+    .p3div1maFitt:hover{
+        color: rgb(228, 105, 5); ;
+    }
+
+    .imgmaFitt{
+        margin-top: 5%;
+        height: 20%;
+        width: 100%;
+        transition:2s;
+    }
